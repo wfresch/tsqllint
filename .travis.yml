@@ -7,10 +7,6 @@ os:
 - osx
 - windows
 solution: ./source/TSQLLint.sln
-branches:
-  only:
-  - master
-  - dev
 addons:
   apt:
     packages:
