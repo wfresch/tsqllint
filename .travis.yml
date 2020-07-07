@@ -3,11 +3,7 @@ sudo: required
 dist: trusty
 mono: none
 os:
-- linux:
-  addons:
-    apt:
-      packages:
-      - libunwind8
+- linux
 - osx
 - windows
 solution: ./source/TSQLLint.sln
