@@ -4,6 +4,8 @@ dist: trusty
 mono: none
 os:
 - linux
+- osx
+- windows
 solution: ./source/TSQLLint.sln
 branches:
   only:
