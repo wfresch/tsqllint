@@ -3,14 +3,14 @@ sudo: required
 dist: trusty
 mono: none
 os:
-- linux
+- linux:
+  addons:
+    apt:
+      packages:
+      - libunwind8
 - osx
 - windows
 solution: ./source/TSQLLint.sln
-addons:
-  apt:
-    packages:
-    - libunwind8
 dotnet: 2.1
 script:
 - dotnet test ./source/TSQLLint.Tests/TSQLLint.Tests.csproj
