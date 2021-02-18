@@ -1,0 +1,5 @@
+﻿UPDATE dbo.MyTable
+    SET TITLE = 'TEST'
+
+UPDATE MyTable
+    SET DESCRIPTION = 'TEST';
